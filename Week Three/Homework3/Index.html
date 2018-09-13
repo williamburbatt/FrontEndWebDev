@@ -8,22 +8,28 @@
 
 <body>
 
-    <form action="" method="get">
-        <h2>Choose your items</h2>
-        <p><input type="checkbox" name="item0" value="fourPackGelPens"><label>4 Pack Gel Pen - <b>$4.99</b></label></p>
-        <p><input type="checkbox" name="item1" value="tenPackPencils"><label>10 Pack #2 Pencil - <b>$7.99</b></label></p>
-        <p><input type="checkbox" name="item2" value="collegeRuledNotebook"><label>70 Page College Ruled Notebook - <b>$0.75</b></label></p>
-        <p><input type="checkbox" name="item3" value="folder"><label>Folder - <b>$0.10</b></label></p>
-        <h2>Enter Information</h2>
-        <p><input type="radio" name="payment" value="visa"><label>Visa </label></p>
-        <p><input type="radio" name="payment" value="mastercard"><label>Master Card </label></p>
-        <p><input type="radio" name="payment" value="discover"><label>Discover </label></p>
-        <p><input type="radio" name="payment" value="amex"><label>American Express </label></p>
-        <p><label>Name:</label><br><input type="text" name="name" placeholder="John Smith"></p>
-        <p><label>Card Number:</label><br><input type="text" name="cardNum" placeholder="1234-5678-9012-3456"></p>
-        <p><label>Expiration Date:</label><br><input type="text" name="exD" placeholder="MM/YY"></p>
-        <p><label>CCV:</label><br><input type="text" name="ccv" placeholder="123"></p>
-        <input type="submit" value="Submit">
+    <form action="http://csmaster.sxu.edu/budz/ACSG460/list_data.php" method="get">
+        <fieldset>
+            <legend>Choose Items</legend>
+            <p><input type="checkbox" name="item0" value="fourPackGelPens"><label>4 Pack Gel Pen - <b>$4.99</b></label></p>
+            <p><input type="checkbox" name="item1" value="tenPackPencils"><label>10 Pack #2 Pencil - <b>$7.99</b></label></p>
+            <p><input type="checkbox" name="item2" value="collegeRuledNotebook"><label>70 Page College Ruled Notebook - <b>$0.75</b></label></p>
+            <p><input type="checkbox" name="item3" value="folder"><label>Folder - <b>$0.10</b></label></p>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Enter Information</legend>
+            <p><input type="radio" name="payment" value="visa"><label>Visa </label>
+                <input type="radio" name="payment" value="mastercard"><label>Master Card </label>
+                <input type="radio" name="payment" value="discover"><label>Discover </label>
+                <input type="radio" name="payment" value="amex"><label>American Express </label></p>
+            <p><label>Name:</label><br><input type="text" name="name" placeholder="John Smith"></p>
+            <p><label>Card Number:</label><br><input type="text" name="cardNum" placeholder="1234-5678-9012-3456"></p>
+            <p><label>Expiration Date:</label><br><input type="text" name="exD" placeholder="MM/YY"></p>
+            <p><label>CCV:</label><br><input type="text" name="ccv" placeholder="123"></p>
+        </fieldset>
+        <br />
+        <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit">
     </form>
 </body>
 
