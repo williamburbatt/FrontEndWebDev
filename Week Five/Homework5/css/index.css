@@ -1,0 +1,79 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    font-family: "Arial", Helvetica, sans-serif;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+th {
+    font-family: "Arial", Helvetica, sans-serif;
+    height: 32px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chi {
+    color: red;
+    background-color: black;
+}
+
+.det {
+    color: white;
+    background-color: red;
+}
+
+.fla {
+    color: yellow;
+    background-color: red;
+}
+
+.tam {
+    color: white;
+    background-color: blue;
+}
+
+.was {
+    color: black;
+    background-color: red;
+}
+
+.stl {
+    color: yellow;
+    background-color: blue;
+}
+
+.car {
+    color: white;
+    background-color: red;
+}
+
+.nas {
+    color: yellow;
+    background-color: black;
+}
+
+.sjs {
+    color: white;
+    background-color: teal;
+}
+
+.clg {
+    color: red;
+    background-color: white;
+}

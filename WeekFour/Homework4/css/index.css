@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+h3 {
+    color: slategray;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+    font-family: "Verdana", Geneva, sans-serif;
+}
+
+.metalAndPeach {
+    color: #50524B;
+    background-color: #FEDCD2;
+}
+
+.beigeAndWarm {
+    color: beige;
+    background-color: #DF744A;
+}
+
+.cornsilkAndLemon {
+    color: cornsilk;
+    background-color: #DCB239;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.important {
+    color: red;
+    background-color: yellow;
+}
