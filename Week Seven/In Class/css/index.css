@@ -2,11 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-a {
-    text-align: center;
-    display: block;
-}
-
 h1 {
     font-size: 60px;
     color: whitesmoke;
@@ -14,9 +9,6 @@ h1 {
     text-align: center;
     padding: 20px;
     font-weight: bold;
-}
-h3{
-    text-align: center;
 }
 
 p {

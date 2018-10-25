@@ -1,0 +1,94 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightslategray;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    align-content: center
+}
+
+legend {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a.selected {
+    font-weight: bold;
+    font-size: 115%
+}
+
+.menuItems {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+
+}
+
+.container {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.submitBtn {
+    text-align: center;
+}
+
+.titleOne {
+    color: dimgray;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.titleTwo {
+    color: black;
+    font-size: 40px;
+
+}
+
+.titleThree {
+    color: dimgray;
+    font-size: 30px;
+}
+
+.title {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-weight: bold;
+}
