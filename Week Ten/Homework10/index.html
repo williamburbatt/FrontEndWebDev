@@ -15,26 +15,37 @@
     <!-- Site specific -->
     <link rel="stylesheet" href="css/index.css" />
 
-    <title>Person Objects</title>
+    <title>Fib Counter</title>
 </head>
 
 <body>
-    <h1>People!</h1>
-    <div id="info">
-        <h2>Person One</h2>
-        <div id="firstName"></div>
-        <div id="lastName"></div>
-        <div id="birthDate"></div>
-    </div>
-    <div id="info2">
-        <h2>Person Two</h2>
-        <div id="firstName2"></div>
-        <div id="lastName2"></div>
-        <div id="birthDate2"></div>
-    </div>
-    <div id="info3">
-        <h2>Difference in Age:</h2>
-        <div id="ageDiff"></div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Fibonacci!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Result</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+               <input type="number" name="input" id ="input" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button onclick="fibHelper()">Calculate</button> </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="result"></div>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->

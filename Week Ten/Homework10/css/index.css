@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: lightslategray;
     height: 100%;
+    text-align: center;
 }
 
 html {
@@ -43,52 +44,12 @@ a {
     color: black;
 }
 
-a.selected {
-    font-weight: bold;
-    font-size: 115%
-}
 
-.menuItems {
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-bottom-style: solid;
-    border-color: black;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-
+.row{
+    margin-bottom: 20px;
 }
 
 .container {
     height: 100%;
     background-color: whitesmoke;
-}
-
-.submitBtn {
-    text-align: center;
-}
-
-.titleOne {
-    color: dimgray;
-    font-size: 18px;
-    padding: 0px;
-    margin: 0px;
-}
-
-.titleTwo {
-    color: black;
-    font-size: 40px;
-
-}
-
-.titleThree {
-    color: dimgray;
-    font-size: 30px;
-}
-
-.title {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    text-align: center;
-    font-weight: bold;
 }
