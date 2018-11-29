@@ -12,9 +12,9 @@ function fibHelper() {
     var input = document.getElementById('input').value;
     var diff = document.getElementById('result'); // Get element
     var finalString = "";
-    var x = input;
+    var x = input-1;
 
-    while (x > 0) {
+    while (x >= 0) {
         var curr = fib(x);
         finalString = finalString + curr + " ";
         x--;
