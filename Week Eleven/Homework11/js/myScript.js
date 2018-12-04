@@ -1,4 +1,11 @@
 $(function () {
+    
+$("#input").keyup(function(event) {
+    if (event.keyCode === 13) {
+        $("#submitButton").click();
+    }
+});
+    
     $("#submitButton").click(function () {
         var text = $('#input').val();
         if (text != "") {
